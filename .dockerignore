@@ -1,0 +1,10 @@
+node_modules
+dist
+.git
+docker.env
+.prettierrc
+.gitignore
+logs
+test
+.eslintrc.js
+README.md

@@ -1,0 +1,27 @@
+http:
+  port: 3000
+  host: http
+
+db:
+  mysql:
+    host: 'localhost'
+    port: 3306
+  mongoDB: 'mongodb+srv://RFOneDB:HCPaWqsyGQQOp0nz@db.s2zyebc.mongodb.net/?retryWrites=true&w=majority'
+
+logLevel: 'info'
+api_prefix: 'api'
+ssl: 'false'
+JWT_VERIFICATION_TOKEN_SECRET: 'Q12_q0000089rt'
+JWT_SECRET_KEY: '3JaJfaUDKKYgpWtYFYGv0S6vCCIW4QuujAPgeTDO'
+JWT_EXPIRES_IN: '1d'
+GET_PUBLIC_IP: 'https://api.ipify.org/?format=json'
+MAIL_HOST: 'smtp-relay.brevo.com'
+MAIL_USER: 'himanshurajput56@gmail.com'
+MAIL_PASSWORD: 'EW4FYR2yL1wAnXOU'
+MAIL_FROM: 'bhavesh@digixito.com'
+
+IP_API: 'http://ip-api.com/json/?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query'
+
+PAYMENT_GATEWAY:
+  AUTHORIZE_DOT_NET_LOGIN_ID: ''
+  AUTHORIZE_DOT_NET_TRANSACTION_KEY: ''
