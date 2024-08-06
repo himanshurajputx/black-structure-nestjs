@@ -1,3 +1,6 @@
+###################
+# DEVELOPMENT
+###################
 
 FROM node:20 AS development
 
@@ -12,6 +15,10 @@ RUN npm install --only=development
 COPY . .
 
 RUN npm run build
+
+###################
+# PRODUCTION
+###################
 
 FROM node:20 as production
 

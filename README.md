@@ -40,6 +40,16 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Docker
+``` bash
+# Running the Docker containers
+
+ docker-compose up dev
+ 
+ docker-compose up prod
+ 
+ docker-compose up -d prod
+```
 
 
 ## License
